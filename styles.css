@@ -1,0 +1,45 @@
+.header p{
+    background-color:rgb(172, 172, 172);
+    font-size: 15 px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 50px;
+    color:white;
+}
+
+.sub_header h1{
+    background-color: black;
+    font-size: 15 px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 50px;
+    color:white;
+}
+
+.final_header p{
+    background-color:rgb(252, 187, 48);
+    font-size: 15 px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    height: 50px;
+    color:white;
+    text-align: center;
+}
+
+.final_header a{
+    color: blue;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
